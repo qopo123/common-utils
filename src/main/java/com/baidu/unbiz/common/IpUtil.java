@@ -14,7 +14,7 @@ public abstract class IpUtil {
     /**
      * string类型的ip转换为number类型
      * 
-     * @param ipString xxx.xxx.xxx.xxx
+     * @param ip xxx.xxx.xxx.xxx
      * @return long 3663452325
      */
     public static long encodeIp(String ip) {
@@ -35,7 +35,7 @@ public abstract class IpUtil {
     /**
      * number类型的ip转换为string类型
      * 
-     * @param ip 3663452325
+     * @param ipLong 3663452325
      * @return String xxx.xxx.xxx.xxx
      */
     public static String decodeIp(long ipLong) {
